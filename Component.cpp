@@ -20,3 +20,7 @@ Properties cmp::get_property(Properties p)
 {
     return properties;
 }
+string  cmp::getComponentId()
+{
+    return  ComponentId;
+}

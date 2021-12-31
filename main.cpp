@@ -2,19 +2,13 @@
 #include "TopologyList.hpp"
 #include "Topology.hpp"
 #include "Component.hpp"
-
+#include "test.hpp"
 using namespace std;
+
 
 int main()
 {
-    TopologyList tpl;
-    string name;
-    // do
-    // {
-    //     cout <<"enter file name : ";
-    //     cin >> name;
-    // } while (!tpl.readJSON("topology.json"));
-    tpl.readJSON("topology.json");
-    tpl.writeJSON("top1");
+    test t;
+    t.run_tests();
     return 0;
 }
