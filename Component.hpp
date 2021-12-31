@@ -25,4 +25,5 @@ public:
     void add_property(Properties p);
     map<string,string> get_netlist();
     Properties get_property(Properties p);
+    string getComponentId();
 };
